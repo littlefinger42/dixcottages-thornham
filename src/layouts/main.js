@@ -5,13 +5,6 @@ import Navbar from "../components/navbar"
 import { Container, Row } from "react-bootstrap"
 import "normalize.css"
 import "bootstrap/dist/css/bootstrap.min.css"
-import WebFont from "webfontloader"
-
-WebFont.load({
-  google: {
-    families: ["Raleway:400", "Poiret One:400", "sans-serif"],
-  },
-})
 
 var containerStyle = {
   fontFamily: "Raleway",
