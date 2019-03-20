@@ -30,7 +30,7 @@ const SubtitleStyled = styled.h2`
   }
   
   @media ${device.laptop} {
-    font-family: 'Poiret One';
+    font-family: 'Poiret One', sans-serif;
     font-size: 24px;
   }
 `

@@ -8,7 +8,6 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import "../components/type.css"
 
 var containerStyle = {
-  fontFamily: "Raleway",
   boxShadow: "0 0 20px #777",
 }
 
