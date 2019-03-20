@@ -17,10 +17,10 @@ export default () => (
     <Row>
       <Carousel
         onSelect={function() {
-          document.querySelectorAll('img[data-src]').forEach(function($node){
-            var src = $node.getAttribute('data-src');
-            $node.setAttribute('src', src);
-            $node.removeAttribute('data-src');
+          document.querySelectorAll('img[data-src]').forEach(function($img){
+            var src = $img.getAttribute('data-src');
+            $img.setAttribute('src', src);
+            $img.removeAttribute('data-src');
           })
         }}
       >
