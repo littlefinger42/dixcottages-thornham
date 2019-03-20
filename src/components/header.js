@@ -17,7 +17,7 @@ const SubtitleStyled = styled.h2`
 
 export default props => (
   <HeaderStyled>
-    <hgroup class="text-center">
+    <hgroup className="text-center">
       <TitleStyled>Dix Cottages</TitleStyled>
       <SubtitleStyled>
 				Two delightful adjoining holiday cottages set in idyllic gardens in the centre of Thornham, North Norfolk.

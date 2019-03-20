@@ -8,7 +8,7 @@ public_folder: assets
 collections:
   - name: news
     label: News
-    folder: news
+    folder: static/news
     create: true
     fields:
       - { name: date, label: Date, widget: date }
