@@ -13,6 +13,9 @@ import imgDownstairsFloorPlan from "./2dix/images/dixcottages-2-floorplan-ground
 import imgUpstairsFloorPlan from "./2dix/images/dixcottages-2-floorplan-firstfloor.jpg"
 
 const StyledCol = style(Col)`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   text-align: center;
   padding: 16px 0;
 `

@@ -1,18 +1,38 @@
 import React from "react"
 import styled from "styled-components"
+import { device } from "./device"
 
 const HeaderStyled = styled.header`
-	padding: 32px;
+  padding: 16px;
+  @media ${device.tablet} {
+    padding: 32px;
+  }
 `
 
 const TitleStyled = styled.h1`
-	font-size: 72px;
-	font-family: 'Poiret One';
+	font-size: 32px;
+  font-family: 'Poiret One';
+
+  @media ${device.tablet} {
+    font-size: 48px;
+  }
+  
+  @media ${device.laptop} {
+    font-size: 72px;
+  }
 `
 
 const SubtitleStyled = styled.h2`
-	font-size: 20px;
-	font-family: 'Poiret One';
+	font-size: 14px;
+  
+  @media ${device.tablet} {
+    font-size: 16px;
+  }
+  
+  @media ${device.laptop} {
+    font-family: 'Poiret One';
+    font-size: 24px;
+  }
 `
 
 export default props => (

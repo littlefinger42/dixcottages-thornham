@@ -5,10 +5,11 @@ import Navbar from "../components/navbar"
 import { Container, Row } from "react-bootstrap"
 import "normalize.css"
 import "bootstrap/dist/css/bootstrap.min.css"
+import "../components/type.css"
 
 var containerStyle = {
   fontFamily: "Raleway",
-  boxShadow: "0 0 15px #000",
+  boxShadow: "0 0 20px #777",
 }
 
 export default ({ children }) => (

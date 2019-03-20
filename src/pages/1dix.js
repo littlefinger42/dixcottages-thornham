@@ -13,6 +13,9 @@ import imgUpstairsTwinbed from "./1dix/images/dixcottages-1-twinbed-thornham-nor
 import imgUpstairsFloorPlan from "./1dix/images/dixcottages-1-floorplan-firstfloor.jpg"
 
 const StyledCol = style(Col)`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   text-align: center;
   padding: 16px 0;
 `

@@ -1,11 +1,12 @@
 import React from "react"
 import styled from "styled-components"
-import { Nav, Navbar, NavItem } from "react-bootstrap"
+import { device } from "./device"
+import { Navbar, NavItem } from "react-bootstrap"
 import { Link } from "gatsby"
 
 const NavbarStyled = styled(Navbar)`
   && {
-    min-height: 64px;
+    min-height: 48px;
     width: 100%;
     background-color: #746250;
     padding: 0 16px;
@@ -15,12 +16,17 @@ const NavItemStyled = styled(NavItem)`
   && {
 	display:flex;
 	align-items: center;
-    padding: 8px;
+  padding: 8px;
 	text-align: center;
   }
   &:hover,
   &:focus {
     background-color: #c2a385;
+  }
+  @media ${device.laptop} {
+    && {
+      padding: 16px;
+    }
   }
 `
 const NavbarToggleStyled = styled(Navbar.Toggle)`
@@ -39,8 +45,13 @@ const LinkStyled = styled(Link)`
   && {
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 12px;
     color: #ffffff;
+  }
+  @media ${device.tablet} {
+    && {
+      font-size: 14px;
+    }
   }
 `
 
@@ -48,7 +59,6 @@ export default () => (
   <NavbarStyled expand="md">
     <NavbarToggleStyled aria-controls="basic-navbar-nav" />
     <NavbarCollapseStyled id="basic-navbar-nav">
-      {/* <Nav> */}
         <NavItemStyled>
           <LinkStyled to="/#">Home</LinkStyled>
         </NavItemStyled>
@@ -67,7 +77,6 @@ export default () => (
         <NavItemStyled>
           <LinkStyled to="/reviews/">Guest Reviews</LinkStyled>
         </NavItemStyled>
-      {/* </Nav> */}
     </NavbarCollapseStyled>
   </NavbarStyled>
 )

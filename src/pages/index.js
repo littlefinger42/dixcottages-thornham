@@ -54,8 +54,7 @@ export default () => (
     </Row>
     <Row>
       <Col>
-        <article>
-          <h1>Welcome to Dix Cottages</h1>
+        <article className="mt-2">
           <p>
             In 1842, Joseph Dix, Mariner, bought himself a plot of land in the
             port of Thornham. He built a row of three cottages. A hundred years
