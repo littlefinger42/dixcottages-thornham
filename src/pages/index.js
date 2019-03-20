@@ -15,30 +15,38 @@ import slide8 from "./index/carousel/dix-cottage-thornham-holiday-home-family-lu
 export default () => (
   <Layout>
     <Row>
-      <Carousel>
+      <Carousel
+        onSelect={function() {
+          document.querySelectorAll('img[data-src]').forEach(function($node){
+            var src = $node.getAttribute('data-src');
+            $node.setAttribute('src', src);
+            $node.removeAttribute('data-src');
+          })
+        }}
+      >
         <Carousel.Item>
           <img className="d-block w-100" src={slide1} alt="First slide" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100" src={slide2} alt="Third slide" />
+          <img className="d-block w-100" data-src={slide2} alt="Second slide" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100" src={slide3} alt="Third slide" />
+          <img className="d-block w-100" data-src={slide3} alt="Third slide" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100" src={slide4} alt="First slide" />
+          <img className="d-block w-100" data-src={slide4} alt="First slide" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100" src={slide5} alt="Third slide" />
+          <img className="d-block w-100" data-src={slide5} alt="Third slide" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100" src={slide6} alt="Third slide" />
+          <img className="d-block w-100" data-src={slide6} alt="Third slide" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100" src={slide7} alt="Third slide" />
+          <img className="d-block w-100" data-src={slide7} alt="Third slide" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100" src={slide8} alt="Third slide" />
+          <img className="d-block w-100" data-src={slide8} alt="Third slide" />
         </Carousel.Item>
       </Carousel>
     </Row>
