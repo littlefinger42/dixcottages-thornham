@@ -14,6 +14,6 @@ const footerStyles = {
 
 export default props => (
   <footer style={footerStyles}>
-    Copyright (c) 2019 Dix Cottages. All rights reserved. Contact the web developer at l96.nl
+    Copyright (c) 2019 Dix Cottages. All rights reserved. Contact the web developer at: <a href="https://l96.nl" title="l96.nl">l96.nl</a>
   </footer>
 )

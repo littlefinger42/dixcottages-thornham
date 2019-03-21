@@ -16,17 +16,11 @@ const NavItemStyled = styled(NavItem)`
   && {
 	display:flex;
 	align-items: center;
-  padding: 8px;
 	text-align: center;
   }
   &:hover,
   &:focus {
     background-color: #c2a385;
-  }
-  @media ${device.laptop} {
-    && {
-      padding: 16px;
-    }
   }
 `
 const NavbarToggleStyled = styled(Navbar.Toggle)`
@@ -43,6 +37,7 @@ const NavbarCollapseStyled = styled(Navbar.Collapse)`
 `
 const LinkStyled = styled(Link)`
   && {
+    padding: 8px;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 12px;
@@ -51,6 +46,11 @@ const LinkStyled = styled(Link)`
   @media ${device.tablet} {
     && {
       font-size: 14px;
+    }
+  }
+  @media ${device.laptop} {
+    && {
+      padding: 16px;
     }
   }
 `
