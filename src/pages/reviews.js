@@ -31,7 +31,7 @@ export default AvailabilityPage
 export const pageQuery = graphql`
   query {
     allMarkdownRemark(
-      filter: { fileAbsolutePath: { glob: "**/reviews/*/.md" } }
+      filter: { fileAbsolutePath: { glob: "**/reviews/*.md" } }
       sort: { order: DESC, fields: [frontmatter___date] }
     ) {
       edges {
