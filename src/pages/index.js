@@ -17,10 +17,10 @@ export default () => (
     <Row>
       <Carousel
         onSelect={function() {
-          document.querySelectorAll('img[data-src]').forEach(function($img){
-            var src = $img.getAttribute('data-src');
-            $img.setAttribute('src', src);
-            $img.removeAttribute('data-src');
+          document.querySelectorAll("img[data-src]").forEach(function($img) {
+            var src = $img.getAttribute("data-src")
+            $img.setAttribute("src", src)
+            $img.removeAttribute("data-src")
           })
         }}
       >
@@ -64,31 +64,23 @@ export default () => (
       <Col>
         <article className="mt-2">
           <p>
-            In 1842, Joseph Dix, Mariner, bought himself a plot of land in the
-            port of Thornham. He built a row of three cottages. A hundred years
-            later, in 1960, the then tied cottages were purchased by Wing
-            Commander and Mrs Claude Dunkerley. A great renovation took place,
-            three typical Norfolk cottages, brick fronted and the cheaper flint
-            across the back, became one carousel and one small.
+            Found in the heart of the costal village of Thornham the cottages
+            are perfectly located for walking, beaching, fine dinning or just
+            relaxing. Equidistant between the nature reserves at Titchwell and
+            Holme-next-the-Sea the cottages provide a warm welcome all year
+            round.
           </p>
           <p>
-            Dix Cottages were loved and cared for. Fruit trees, apple, pear,
-            plum and peach were planted in the garden along with the roses. The
-            sun shone through the south and west facing windows and the feeling
-            of happiness and contentment that remains today was nurtured.
+            The flexible accommodation can be booked as a pair to cater for
+            large family gatherings of up to 10 ( 12 when incorporating the bed
+            settee) or singularly for smaller groups. Both cottages benefit from
+            pretty south facing well stocked south facing gardens, barbeques and
+            parking for 2 vehicles each.
           </p>
           <p>
-            Dix cottages are now two beautifully renovated and cared for holiday
-            cottages, stylish, comfortable and beautifully appointed.
-          </p>
-          <p>
-            Found in the heart of Thornham, directly opposite the popular Orange
-            Tree Pub, the cottages are perfectly located for walking, beaching,
-            relaxing, fine dining and just relaxing.
-          </p>
-          <p>
-            Equidistant between both the nature reserves at Titchwell and
-            Holme-next-the-Sea the cottages welcome visitors all year round.
+            The cottages have been renovated by the present owners to a high
+            standard with luxury furnishings, well equipped kitchens, log
+            burning stoves, digital TV’s and wifi and first class house-keeping.
           </p>
         </article>
       </Col>

@@ -12,7 +12,7 @@ import imgUpstairsMaster from "./1dix/images/dixcottages-1-master-thornham-norfo
 import imgUpstairsTwinbed from "./1dix/images/dixcottages-1-twinbed-thornham-norfolk-holiday-cottage.jpg"
 import imgUpstairsFloorPlan from "./1dix/images/dixcottages-1-floorplan-firstfloor.jpg"
 
-const StyledCol = style(Col)`
+const StyledCol = style.Col`
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -24,7 +24,7 @@ export default () => (
   <Layout>
     <Row>
       <StyledCol md={6}>
-        <h3>1 Dix Cottages</h3>
+        <h3>1 Dix Cottages - Sleeps 4</h3>
         <p>
           <i>
             “We have had a lovely stay in your cottage in the fabulous village
