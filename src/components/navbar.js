@@ -54,7 +54,7 @@ const LinkStyled = styled(Link)`
 export default () => (
   <NavbarStyled expand="md">
     <Navbar.Toggle
-      style={{backgroundColour: 'white'}}
+      style={{backgroundColor: 'white'}}
       aria-controls="basic-navbar-nav"
     />
     <NavbarCollapseStyled id="basic-navbar-nav">
