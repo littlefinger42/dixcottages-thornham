@@ -14,24 +14,20 @@ const NavbarStyled = styled(Navbar)`
 `
 const NavItemStyled = styled(NavItem)`
   && {
-	display:flex;
-	align-items: center;
-	text-align: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
   }
   &:hover,
   &:focus {
     background-color: #c2a385;
   }
 `
-const NavbarToggleStyled = styled(Navbar.Toggle)`
-  && {
-    background-color: white;
-  }
-`
+
 const NavbarCollapseStyled = styled(Navbar.Collapse)`
   && {
-	height: 100%;
-	align-items: stretch;
+    height: 100%;
+    align-items: stretch;
     justify-content: center;
   }
 `
@@ -57,26 +53,29 @@ const LinkStyled = styled(Link)`
 
 export default () => (
   <NavbarStyled expand="md">
-    <NavbarToggleStyled aria-controls="basic-navbar-nav" />
+    <Navbar.Toggle
+      style={{backgroundColour: 'white'}}
+      aria-controls="basic-navbar-nav"
+    />
     <NavbarCollapseStyled id="basic-navbar-nav">
-        <NavItemStyled>
-          <LinkStyled to="/#">Home</LinkStyled>
-        </NavItemStyled>
-        <NavItemStyled>
-          <LinkStyled to="/1dix/">1 Dix Cottages</LinkStyled>
-        </NavItemStyled>
-        <NavItemStyled>
-          <LinkStyled to="/2dix/">2 Dix Cottages</LinkStyled>
-        </NavItemStyled>
-        <NavItemStyled>
-          <LinkStyled to="/thornham/">Thornham</LinkStyled>
-        </NavItemStyled>
-        <NavItemStyled>
-          <LinkStyled to="/availability/">News &amp; Availability</LinkStyled>
-        </NavItemStyled>
-        <NavItemStyled>
-          <LinkStyled to="/reviews/">Guest Reviews</LinkStyled>
-        </NavItemStyled>
+      <NavItemStyled>
+        <LinkStyled to="/#">Home</LinkStyled>
+      </NavItemStyled>
+      <NavItemStyled>
+        <LinkStyled to="/1dix/">1 Dix Cottages</LinkStyled>
+      </NavItemStyled>
+      <NavItemStyled>
+        <LinkStyled to="/2dix/">2 Dix Cottages</LinkStyled>
+      </NavItemStyled>
+      <NavItemStyled>
+        <LinkStyled to="/thornham/">Thornham</LinkStyled>
+      </NavItemStyled>
+      <NavItemStyled>
+        <LinkStyled to="/availability/">News &amp; Availability</LinkStyled>
+      </NavItemStyled>
+      <NavItemStyled>
+        <LinkStyled to="/reviews/">Guest Reviews</LinkStyled>
+      </NavItemStyled>
     </NavbarCollapseStyled>
   </NavbarStyled>
 )
