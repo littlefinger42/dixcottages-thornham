@@ -13,6 +13,7 @@ import imgDownstairsFloorPlan from "./2dix/images/dixcottages-2-floorplan-ground
 import imgUpstairsFloorPlan from "./2dix/images/dixcottages-2-floorplan-firstfloor.jpg"
 
 const ContentBlock = style.div`
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;

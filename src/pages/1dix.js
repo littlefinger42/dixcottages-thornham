@@ -13,6 +13,7 @@ import imgUpstairsTwinbed from "./1dix/images/dixcottages-1-twinbed-thornham-nor
 import imgUpstairsFloorPlan from "./1dix/images/dixcottages-1-floorplan-firstfloor.jpg"
 
 const ContentBlock = style.div`
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
