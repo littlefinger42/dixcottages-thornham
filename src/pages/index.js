@@ -18,7 +18,7 @@ const indexPage = ({
     <Layout>
       <Row>
         <div>
-          <img className="img-fluid w-100" src={homePageImage} />
+          <img className="img-fluid w-100" src={homePageImage} alt="Dix Cottages Thornham Holiday Cottage 2 outside"/>
         </div>
       </Row>
       <Row>
