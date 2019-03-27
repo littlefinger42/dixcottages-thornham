@@ -107,7 +107,7 @@ export default () => (
             <h2 className="h3">First Floor</h2>
             <p>
               Upstairs the elegant master bedroom is spacious and calm with mp3
-              player point and a big king sized bed. Bedroom two has twin 2’ 6”
+              player point and a <strong>big king sized bed</strong>. Bedroom two has <strong>twin</strong> 2’ 6”
               beds suitable for children. The bathroom serves both rooms.
             </p>
             <p>
@@ -150,9 +150,9 @@ export default () => (
           <ContentBlock>
             <h2 className="h3">Outside</h2>
             <p>
-              Outside is private off street parking for 2 vehicles with superb
-              private, walled, west facing garden and patio for outside garden
-              dining with table, chairs and barbeque.
+              Outside is private off street parking for <strong>2 vehicles</strong> with superb
+              private, walled, west facing garden and patio for <strong>outside garden
+              dining with table, chairs and barbeque</strong>.
             </p>
           </ContentBlock>
         </Col>

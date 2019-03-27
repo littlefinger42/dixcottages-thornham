@@ -33,11 +33,11 @@ export default () => (
           <ContentBlock>
             <h1 className="h3">2 Dix Cottages - Sleeps 6 (8)</h1>
             <p>
-              2 Dix Cottages was once two cottages and so has very spacious
+              2 Dix Cottages was once two cottages and so has very <strong>spacious</strong>
               living areas.
               <br />
               Furnished to the same high standards as its neighbour and
-              benefiting from a large south west facing garden this cottage is
+              benefiting from a <strong>large south west facing</strong> garden this cottage is
               perfect for a holiday with family or friends.
             </p>
           </ContentBlock>
@@ -59,16 +59,16 @@ export default () => (
           <ContentBlock>
             <h2 className="h3">Ground Floor</h2>
             <p>
-              The large well equipped open plan kitchen and living room has all
-              the features you would expect including freezer and dishwasher.
-              The dinning table comfortably seats 8 whilst the seating space has
-              two large sofas arranged around a wood burning stove and wide
-              screen television. French doors lead out onto a sun terrace and
+              The large well equipped <strong>open plan</strong> kitchen and living room has all
+              the features you would expect including <strong>freezer</strong> and <strong>dishwasher</strong>.
+              The dinning table <strong>comfortably seats 8</strong> whilst the seating space has
+              two large sofas arranged around a <strong>wood burning stove</strong> and <strong>wide
+              screen television</strong>. French doors lead out onto a <strong>sun terrace</strong> and
               gardens beyond.
             </p>
             <p>
-              In addition there is a cosy snug with sofas and second wood burner
-              and digital television and a utility room with shower cubicle,
+              In addition there is a <strong>cosy snug</strong> with sofas and second <strong>wood burner</strong>
+              and flatscreen television and a <strong>utility room</strong> with shower cubicle,
               WHB, WC, washing machine and tumble dryer.
             </p>
           </ContentBlock>
@@ -114,9 +114,9 @@ export default () => (
             <h2 className="h3">First Floor</h2>
             <p>
               The master bedroom has a <b>king-size bed</b> and{" "}
-              <b>flat screen television</b>
+              <b>flat screen television </b> 
               whilst enjoying <b>double aspect views</b> across the garden. The
-              ensuite bathroom has a shower cubicle, heated towel rail, wash
+              ensuite bathroom has a shower, heated towel rail, wash
               basin and WC.
             </p>
             <p>
@@ -125,7 +125,7 @@ export default () => (
             </p>
             <p>
               Bedroom three has <b>full-size twin beds</b> and views over the
-              garden. Bedroom three also has an ensuite with a shower cubicle,
+              garden. Including an additional ensuite with a shower,
               heated towel rail, wash basin and WC.
             </p>
             <p>
