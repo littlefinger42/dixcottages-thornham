@@ -34,8 +34,8 @@ const indexPage = ({
       <Row>
         <Col md={6}>
           <section className="mt-2">
+            <h1 className="h4">Welcome to Dix Cottages</h1>
             <p>
-              <h1 className="h4">Welcome to Dix Cottages</h1>
               Found in the heart of the costal village of Thornham the cottages
               are perfectly located for walking, beaching, fine dinning or just
               relaxing. Equidistant between the nature reserves at Titchwell and
@@ -46,8 +46,8 @@ const indexPage = ({
               The flexible accommodation can be booked as a pair to cater for
               large family gatherings of up to 10 ( 12 when incorporating the
               bed settee) or singularly for smaller groups. Both cottages
-              benefit from pretty, well stocked south facing
-              gardens, barbeques and parking for 2 vehicles each.
+              benefit from pretty, well stocked south facing gardens, barbeques
+              and parking for 2 vehicles each.
             </p>
             <p>
               The cottages have been renovated by the present owners to a high
