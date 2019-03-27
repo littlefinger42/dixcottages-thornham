@@ -30,14 +30,14 @@ export default () => (
     <Row>
       <Col md={6}>
         <ContentBlock>
-          <h3>2 Dix Cottages - Sleeps 6</h3>
+          <h3>2 Dix Cottages - Sleeps 6 (8)</h3>
           <p>
-            2 Dix Cottages is both <b>bright</b> and <b>stylish</b> whilst
-            retaining that cottage feel.
+            2 Dix Cottages was once two cottages and so has very spacious living
+            areas.
             <br />
-            Sleeping <b>four</b> this little cottage is comfortable, well
-            equipped and the <b>perfect</b> place to stay for that romantic
-            getaway.
+            Furnished to the same high standards as its neighbour and benefiting
+            from a large south west facing garden this cottage is perfect for a
+            holiday with family or friends.
           </p>
         </ContentBlock>
       </Col>
@@ -58,21 +58,17 @@ export default () => (
         <ContentBlock>
           <h3>Ground Floor</h3>
           <p>
-            The kitchen area has painted units and wooden worktops, tiled floor,
-            Belling range cooker, fridge, freezer, dishwasher, and microwave.
-            The sitting space has twin sofas set around a{" "}
-            <b>wood burning stove</b> and <b>wide screen television</b>.
+            The large well equipped open plan kitchen and living room has all
+            the features you would expect including freezer and dishwasher. The
+            dinning table comfortably seats 8 whilst the seating space has two
+            large sofas arranged around a wood burning stove and wide screen
+            television. French doors lead out onto a sun terrace and gardens
+            beyond.
           </p>
           <p>
-            There is a utility/shower room with shower cubicle, wash basin, WC,{" "}
-            <b>washing machine</b> and <b>tumble dryer</b>. The dining area has
-            table with seating for eight and french doors leading out to the
-            terrace and garden. Open plan stairs lead to the first floor.
-          </p>
-          <p>
-            There is an additional snug/garden room with{" "}
-            <b>wood burning stove</b> and <b>flatscreen television</b> with DVD
-            player, and french doors to the garden.
+            In addition there is a cosy snug with sofas and second wood burner
+            and digital television and a utility room with shower cubicle, WHB,
+            WC, washing machine and tumble dryer.
           </p>
         </ContentBlock>
       </Col>
@@ -135,7 +131,7 @@ export default () => (
             Lastely, the family bathroom comprises of{" "}
             <b>
               twin sinks, touch operated mirror, roll top bath with hand held
-              shower
+              shower, seperate shower cubicle
             </b>
             , heated towel rail and WC.
           </p>

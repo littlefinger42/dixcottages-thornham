@@ -45,7 +45,7 @@ const indexPage = ({
               The flexible accommodation can be booked as a pair to cater for
               large family gatherings of up to 10 ( 12 when incorporating the
               bed settee) or singularly for smaller groups. Both cottages
-              benefit from pretty south facing well stocked south facing
+              benefit from pretty, well stocked south facing
               gardens, barbeques and parking for 2 vehicles each.
             </p>
             <p>
