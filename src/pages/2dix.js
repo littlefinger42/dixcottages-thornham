@@ -4,12 +4,16 @@ import style from "styled-components"
 
 import { Carousel, Row, Col } from "react-bootstrap"
 
-// import imgOutside from "./2dix/images/dixcottages-2-outside-thornham-norfolk-holiday-cottage.jpg"
-// import imgDownstairsKitchen from "./2dix/images/dixcottages-2-kitchen-thornham-norfolk-holiday-cottage.jpg"
-// import imgDownstairsLiving from "./2dix/images/dixcottages-2-living-thornham-norfolk-holiday-cottage.jpg"
+import imgOutside from "./2dix/images/dixcottages-2-outside-thornham-norfolk-holiday-cottage.jpg"
+import imgDownstairsKitchen from "./2dix/images/dixcottages-2-kitchen-thornham-norfolk-holiday-cottage.jpg"
+import imgDownstairsLiving from "./2dix/images/dixcottages-2-living-thornham-norfolk-holiday-cottage.jpg"
+import imgDownstairsSnug from "./2dix/images/dixcottages-2-snug-thornham-norfolk-holiday-cottage.jpg"
 import imgDownstairsFloorPlan from "./2dix/images/dixcottages-2-floorplan-groundfloor.jpg"
-// import imgUpstairsMaster from "./2dix/images/dixcottages-2-master-thornham-norfolk-holiday-cottage.jpg"
-// import imgUpstairsTwinbed from "./2dix/images/dixcottages-2-twinbed-thornham-norfolk-holiday-cottage.jpg"
+import imgUpstairsMaster from "./2dix/images/dixcottages-2-master-thornham-norfolk-holiday-cottage.jpg"
+import imgUpstairsMasterEnsuite from "./2dix/images/dixcottages-2-master-ensuite-thornham-norfolk-holiday-cottage.jpg"
+import imgUpstairsTwinbed from "./2dix/images/dixcottages-2-twinbed-thornham-norfolk-holiday-cottage.jpg"
+import imgUpstairsBed2 from "./2dix/images/dixcottages-2-bed2-thornham-norfolk-holiday-cottage.jpg"
+import imgUpstairsBathroom from "./2dix/images/dixcottages-2-bathroom-thornham-norfolk-holiday-cottage.jpg"
 import imgUpstairsFloorPlan from "./2dix/images/dixcottages-2-floorplan-firstfloor.jpg"
 
 const ContentBlock = style.div`
@@ -40,11 +44,11 @@ export default () => (
       <Col md={6}>
         <Row>
           <div>
-            {/* <img
+            <img
               src={imgOutside}
               className="img-fluid"
               alt="2 Dix Cottages Outside Garden"
-            /> */}
+            />
           </div>
         </Row>
       </Col>
@@ -75,7 +79,7 @@ export default () => (
       <Col md={6}>
         <Row>
           <Carousel>
-            {/* <Carousel.Item>
+            <Carousel.Item>
               <img
                 className="d-block w-100"
                 src={imgDownstairsLiving}
@@ -88,7 +92,14 @@ export default () => (
                 src={imgDownstairsKitchen}
                 alt="Dix Cottages ground floor kitchen"
               />
-            </Carousel.Item> */}
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={imgDownstairsSnug}
+                alt="Dix Cottages ground floor snug"
+              />
+            </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100"
@@ -133,7 +144,7 @@ export default () => (
       <Col md={6}>
         <Row>
           <Carousel>
-            {/* <Carousel.Item>
+            <Carousel.Item>
               <img
                 className="d-block w-100"
                 src={imgUpstairsMaster}
@@ -143,10 +154,31 @@ export default () => (
             <Carousel.Item>
               <img
                 className="d-block w-100"
+                src={imgUpstairsMasterEnsuite}
+                alt="Dix Cottages first floor master bedroom ensuite"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
                 src={imgUpstairsTwinbed}
                 alt="Dix Cottages first floor twin bedroom"
               />
-            </Carousel.Item> */}
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={imgUpstairsBed2}
+                alt="Dix Cottages first floor bedroom 2"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={imgUpstairsBathroom}
+                alt="Dix Cottages first floor bathroom"
+              />
+            </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100"
@@ -173,11 +205,11 @@ export default () => (
       <Col md={6}>
         <Row>
           <div>
-            {/* <img
+            <img
               className="img-fluid"
               src={imgOutside}
               alt="2 Dix Cottages Outside Garden"
-            /> */}
+            />
           </div>
         </Row>
       </Col>
