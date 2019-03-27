@@ -12,7 +12,7 @@ export default () => (
     <br />
     <Row>
       <Col md={6}>
-        <article>
+        <section>
           <h1 className="h3">Thornham</h1>
           <p>
             Thornham is a pretty village on the North Norfolk coast, an area of
@@ -39,7 +39,7 @@ export default () => (
             Market and Holkham with its magnificent beach, are within easy
             reach.
           </p>
-        </article>
+        </section>
       </Col>
       <Col md={6}>
         <ul>

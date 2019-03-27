@@ -16,31 +16,33 @@ const AvailabilityPage = ({
     <Layout>
       <Row>
         <Col className="mt-3">
-          <div className="page-header">
-            <h3>How to book</h3>
-          </div>
-          <h4>1 Dix Cottages</h4>
-          <p>
-            To make an enquiry and see the availablity calender, please go to
-            our agency's page:
-          </p>
-          <a
-            href="https://www.norfolkhideaways.co.uk/thornham-surrounding-villages/thornham-holiday-cottages/1-dix-cottages"
-            title="Norfolk Hideaways booking agency 1 Dix Cottage"
-          >
-            www.norfolkhideaways.co.uk
-          </a>
-          <h4>2 Dix Cottages</h4>
-          <p>
-            To make an enquiry and see the availablity calender, please go to
-            our agency's page:
-          </p>
-          <a
-            href="https://www.norfolkhideaways.co.uk/thornham-surrounding-villages/thornham-holiday-cottages/2-dix-cottages"
-            title="Norfolk Hideaways booking agency 2 Dix Cottage"
-          >
-            www.norfolkhideaways.co.uk
-          </a>
+          <section>
+            <div className="page-header">
+              <h1 className="h3">How to book</h1>
+            </div>
+            <h2 className="h4">1 Dix Cottages</h2>
+            <p>
+              To make an enquiry and see the availablity calender, please go to
+              our agency's page:
+            </p>
+            <a
+              href="https://www.norfolkhideaways.co.uk/thornham-surrounding-villages/thornham-holiday-cottages/1-dix-cottages"
+              title="Norfolk Hideaways booking agency 1 Dix Cottage"
+            >
+              www.norfolkhideaways.co.uk
+            </a>
+            <h2 className="h4">2 Dix Cottages</h2>
+            <p>
+              To make an enquiry and see the availablity calender, please go to
+              our agency's page:
+            </p>
+            <a
+              href="https://www.norfolkhideaways.co.uk/thornham-surrounding-villages/thornham-holiday-cottages/2-dix-cottages"
+              title="Norfolk Hideaways booking agency 2 Dix Cottage"
+            >
+              www.norfolkhideaways.co.uk
+            </a>
+          </section>
         </Col>
         {/* <Col md={6} className="mt-3">
           <h3>News</h3>

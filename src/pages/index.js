@@ -32,9 +32,10 @@ const indexPage = ({
         </Col>
       </Row>
       <Row>
-        <Col>
-          <article className="mt-2">
+        <Col md={6}>
+          <section className="mt-2">
             <p>
+              <h1 className="h4">Welcome to Dix Cottages</h1>
               Found in the heart of the costal village of Thornham the cottages
               are perfectly located for walking, beaching, fine dinning or just
               relaxing. Equidistant between the nature reserves at Titchwell and
@@ -54,10 +55,12 @@ const indexPage = ({
               burning stoves, digital TV’s and wifi and first class
               house-keeping.
             </p>
-          </article>
+          </section>
         </Col>
-        <Col>
-          {Posts}
+        <Col md={6}>
+          <section>
+            <ul className="list-unstyled mt-2">{Posts}</ul>
+          </section>
         </Col>
       </Row>
     </Layout>
