@@ -15,7 +15,7 @@ const AvailabilityPage = ({
   return (
     <Layout>
       <Row>
-        <Col md={{ order: 2 }} className="mt-3">
+        <Col className="mt-3">
           <div className="page-header">
             <h3>How to book</h3>
           </div>
@@ -42,10 +42,10 @@ const AvailabilityPage = ({
             www.norfolkhideaways.co.uk
           </a>
         </Col>
-        <Col md={6} className="mt-3">
+        {/* <Col md={6} className="mt-3">
           <h3>News</h3>
           <ul className="list-unstyled">{Posts}</ul>
-        </Col>
+        </Col> */}
       </Row>
     </Layout>
   )

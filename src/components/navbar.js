@@ -71,7 +71,7 @@ export default () => (
         <LinkStyled to="/thornham/">Thornham</LinkStyled>
       </NavItemStyled>
       <NavItemStyled>
-        <LinkStyled to="/availability/">News &amp; Availability</LinkStyled>
+        <LinkStyled to="/availability/">Availability</LinkStyled>
       </NavItemStyled>
     </NavbarCollapseStyled>
   </NavbarStyled>
