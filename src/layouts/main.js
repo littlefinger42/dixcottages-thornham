@@ -1,4 +1,5 @@
 import React from "react"
+import Helmet from "../components/helmet"
 import Header from "../components/header"
 import Footer from "../components/footer"
 import Navbar from "../components/navbar"
@@ -13,6 +14,7 @@ var containerStyle = {
 
 export default ({ children }) => (
   <Container style={containerStyle}>
+  <Helmet />
     <Header headerText="Homepage" />
     <Row>
       <Navbar />
