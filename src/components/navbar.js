@@ -73,9 +73,6 @@ export default () => (
       <NavItemStyled>
         <LinkStyled to="/availability/">News &amp; Availability</LinkStyled>
       </NavItemStyled>
-      <NavItemStyled>
-        <LinkStyled to="/reviews/">Guest Reviews</LinkStyled>
-      </NavItemStyled>
     </NavbarCollapseStyled>
   </NavbarStyled>
 )
