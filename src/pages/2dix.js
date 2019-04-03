@@ -33,8 +33,7 @@ export default () => (
           <ContentBlock>
             <h1 className="h3">2 Dix Cottages - Sleeps 6 (8)</h1>
             <p>
-              2 Dix Cottages was once two cottages and so has very <strong>spacious</strong>
-              living areas.
+              2 Dix Cottages was once two cottages and so has very <strong>spacious</strong> living areas.
               <br />
               Furnished to the same high standards as its neighbour and
               benefiting from a <strong>large south west facing</strong> garden this cottage is
@@ -61,7 +60,7 @@ export default () => (
             <p>
               The large well equipped <strong>open plan</strong> kitchen and living room has all
               the features you would expect including <strong>freezer</strong> and <strong>dishwasher</strong>.
-              The dinning table <strong>comfortably seats 8</strong> whilst the seating space has
+              The dining table <strong>comfortably seats 8</strong> whilst the seating space has
               two large sofas arranged around a <strong>wood burning stove</strong> and <strong>wide
               screen television</strong>. French doors lead out onto a <strong>sun terrace</strong> and
               gardens beyond.
@@ -132,7 +131,7 @@ export default () => (
               Lastely, the family bathroom comprises of{" "}
               <b>
                 twin sinks, touch operated mirror, roll top bath with hand held
-                shower, seperate shower cubicle
+                shower, separate shower cubicle
               </b>
               , heated towel rail and WC.
             </p>
@@ -194,7 +193,7 @@ export default () => (
             <p>
               A large sunny walled garden, facing west is laid to lawn with
               fruit trees, shrub border with <b>table tennis table</b>. There's
-              a south facing terrace with table, garden seating and{" "}
+              a south facing terrace with dining table for 8, garden seating with a <strong>south facing swing seat</strong> and{" "}
               <b>barbeque</b>. Ample parking space for <b>two cars</b>.
             </p>
           </ContentBlock>
