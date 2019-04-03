@@ -4,7 +4,7 @@ exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
 		module: {
 		  rules: [
 			{
-			  test: /google-map-react/,
+			  test: "/google-module/",
 			  use: loaders.null(),
 			},
 		  ],
