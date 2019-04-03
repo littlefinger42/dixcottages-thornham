@@ -34,10 +34,10 @@ const indexPage = ({
       <Row>
         <Col md={6}>
           <section className="mt-2">
-            <h1 className="h4">Welcome to Dix Cottages</h1>
+            {/* <h1 className="h4">Welcome to Dix Cottages</h1> */}
             <p>
               Found in the heart of the costal village of Thornham the cottages
-              are perfectly located for walking, beaching, fine dinning or just
+              are perfectly located for walking, beaching, fine dining or just
               relaxing. Equidistant between the nature reserves at Titchwell and
               Holme-next-the-Sea the cottages provide a warm welcome all year
               round.
@@ -46,7 +46,7 @@ const indexPage = ({
               The flexible accommodation can be booked as a pair to cater for
               large family gatherings of up to 10 ( 12 when incorporating the
               bed settee) or singularly for smaller groups. Both cottages
-              benefit from pretty, well stocked south facing gardens, barbeques
+              benefit from pretty, well stocked south and west facing gardens, barbeques
               and parking for 2 vehicles each.
             </p>
             <p>
@@ -82,6 +82,7 @@ export const pageQuery = graphql`
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             title
+            author
           }
         }
       }

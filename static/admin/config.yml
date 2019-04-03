@@ -20,5 +20,5 @@ collections:
     create: true
     fields:
       - { name: date, label: Date, widget: date }
-      - { name: title, label: Title }
+      - { name: author, label: Author, widget: string }
       - { name: body, label: Body, widget: markdown }
