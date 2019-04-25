@@ -26,7 +26,7 @@ const AvailabilityPage = ({
               our agency's page:
             </p>
             <a
-              href="https://www.norfolkhideaways.co.uk/thornham-surrounding-villages/thornham-holiday-cottages/1-dix-cottages"
+              href="https://www.norfolkhideaways.co.uk/thornham-holme-next-the-sea/thornham-holiday-cottages/1-dix-cottages"
               title="Norfolk Hideaways booking agency 1 Dix Cottage"
             >
               www.norfolkhideaways.co.uk
@@ -37,7 +37,7 @@ const AvailabilityPage = ({
               our agency's page:
             </p>
             <a
-              href="https://www.norfolkhideaways.co.uk/thornham-surrounding-villages/thornham-holiday-cottages/2-dix-cottages"
+              href="https://www.norfolkhideaways.co.uk/thornham-holme-next-the-sea/thornham-holiday-cottages/2-dix-cottages"
               title="Norfolk Hideaways booking agency 2 Dix Cottage"
             >
               www.norfolkhideaways.co.uk
