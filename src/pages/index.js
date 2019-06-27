@@ -25,8 +25,8 @@ const indexPage = ({
         <Col>
           <h3 style={{ textAlign: "center", margin: "16px 0" }}>
             Enquiries:{" "}
-            <a href="MAILTO:mail@dixcottage-thornham.co.uk">
-              mail@dixcottage-thornham.co.uk
+            <a href="MAILTO:dixcottage@gmail.com">
+              dixcottage@gmail.com
             </a>
           </h3>
         </Col>
