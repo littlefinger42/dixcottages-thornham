@@ -15,7 +15,7 @@
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.0",
     "bootstrap": "^4.3.1",
-    "gatsby": "^2.3.8",
+    "gatsby": "^2.11.0",
     "gatsby-plugin-html-attributes": "^1.0.5",
     "gatsby-plugin-netlify-cms": "^3.0.17",
     "gatsby-plugin-styled-components": "^3.0.7",
@@ -23,7 +23,7 @@
     "gatsby-source-filesystem": "^2.0.28",
     "gatsby-transformer-remark": "^2.3.8",
     "google-map-react": "1.1.2",
-    "netlify-cms": "^2.9.0",
+    "netlify-cms": "^2.9.4",
     "normalize.css": "^8.0.1",
     "react": "^16.8.6",
     "react-bootstrap": "^1.0.0-beta.6",
