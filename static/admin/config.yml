@@ -10,6 +10,7 @@ collections:
     label: News
     folder: static/news
     create: true
+    identifier_field: title
     fields:
       - { name: date, label: Date, widget: date }
       - { name: title, label: Title }
@@ -18,6 +19,7 @@ collections:
     label: Reviews
     folder: static/reviews
     create: true
+    identifier_field: author
     fields:
       - { name: date, label: Date, widget: date }
       - { name: author, label: Author, widget: string }
